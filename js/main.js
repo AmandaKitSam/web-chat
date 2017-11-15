@@ -11,6 +11,7 @@ $(document).ready(function() {
     var enterChat = $("input#entered_chat").val();
     // console.log(enterChat);
     $('<h4>Nicholas: "' + enterChat + '"</h4>').appendTo("h4#user-statement");
+    $("#mary-reply").delay(3000).slideDown(1000);
   });
 
 }); // END.ready function
