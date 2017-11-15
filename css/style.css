@@ -4,8 +4,8 @@ body {
 }
 
 .start-chat {
-    font-size: 19px;
-    margin: 15px 0px;
+  font-size: 19px;
+  margin: 15px 0px;
 }
 
 .centered {
@@ -16,13 +16,17 @@ body {
   transform: translate(-30%, -30%);
 }
 
+.chat-h4 {
+  margin: 0px 0px 22px 0px;
+}
+
 .btn-chat-now {
   background: #fc3435;
   color: #ffffff;
   padding: 10px 40px;
   font-size: 1.1em;
   border-radius: 30px;
-  box-shadow: 0px 0px 0px 2px #ff4e4f;
+  box-shadow: 0px 0px 2px 2px #a1a1a1;
 }
 
 .btn-chat-now:hover {
@@ -43,6 +47,27 @@ body {
   color: #ffffff;
 }
 
+.btn-send {
+  background: #00d789;
+  color: #ffffff;
+  padding: 10px 40px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px #a1a1a1;
+}
+
+.btn-send:hover {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+	box-shadow: 0px 0px 2px 2px #4680a6;
+  background: #009cff;
+  color: #ffffff;
+	cursor: pointer;
+}
+
+.btn-send:focus {
+  color: #ffffff;
+}
+
 
 /*--------------- Footer Section ---------------*/
 footer {
@@ -54,4 +79,22 @@ footer {
   color: white;
   padding: 20px 0;
   margin: 0 auto;
+}
+
+
+/*--------------------- Media Queries ---------------------*/
+@media only screen and (max-width : 991px) {
+  .centered {
+    font-size: 10px;
+    color: #000000;
+    top: 40%;
+    left: 35%;
+    transform: translate(-30%, -30%);
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .centered {
+    color: #ffffff;
+  }
 }

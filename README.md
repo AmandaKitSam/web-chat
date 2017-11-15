@@ -20,5 +20,3 @@
 The conversation ballon is updated with his message.
 
 - 4) After 3 seconds, Mary replies with the below message.
-
-- Please visit the live demo:
