@@ -2,3 +2,15 @@ body {
   font-family: 'Saira Semi Condensed', sans-serif;
   background-color: #F0F0F0;
 }
+
+h2 {
+  font-size: 34px;
+}
+
+.centered {
+  position: absolute;
+  color: #ffffff;
+  top: 43%;
+  left: 35%;
+  transform: translate(-30%, -30%);
+}
