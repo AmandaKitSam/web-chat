@@ -21,7 +21,7 @@ body {
 }
 
 .btn-chat-now {
-  background: #fc3435;
+  background: #ff5c5d;
   color: #ffffff;
   padding: 10px 40px;
   font-size: 1.1em;
@@ -31,8 +31,8 @@ body {
 
 .btn-chat-now:hover {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-	box-shadow: 0px 0px 0px 2px #ff5c5d;
-  background: #ff5c5d;
+	box-shadow: 0px 0px 2px 2px #816969;
+  background: #fc3a3b;
   color: #ffffff;
 	cursor: pointer;
 }
@@ -58,8 +58,8 @@ body {
 
 .btn-send:hover {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-	box-shadow: 0px 0px 2px 2px #4680a6;
-  background: #009cff;
+	box-shadow: 0px 0px 2px 2px #45aeb1;
+  background: #00e2e9;
   color: #ffffff;
 	cursor: pointer;
 }
