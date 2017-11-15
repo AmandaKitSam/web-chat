@@ -3,10 +3,6 @@ body {
   background-color: #F0F0F0;
 }
 
-h2 {
-  font-size: 34px;
-}
-
 .start-chat {
     font-size: 19px;
     margin: 15px 0px;
@@ -18,4 +14,44 @@ h2 {
   top: 43%;
   left: 35%;
   transform: translate(-30%, -30%);
+}
+
+.btn-chat-now {
+  background: #fc3435;
+  color: #ffffff;
+  padding: 10px 40px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 2px #ff4e4f;
+}
+
+.btn-chat-now:hover {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+	box-shadow: 0px 0px 0px 2px #ff5c5d;
+  background: #ff5c5d;
+  color: #ffffff;
+	cursor: pointer;
+}
+
+.btn-chat-now:active {
+  color: #e7e4e4;
+  background-color: #d92f2f;
+}
+
+.btn-chat-now:focus {
+  background: #fc3435;
+  color: #ffffff;
+}
+
+
+/*--------------- Footer Section ---------------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #404040;
+  color: white;
+  padding: 20px 0;
+  margin: 0 auto;
 }
