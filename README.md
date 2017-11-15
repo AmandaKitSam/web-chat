@@ -4,7 +4,7 @@
 
 ### The project involves: HTML5, CSS3, Bootstrap, JavaScript and jQuery
 
-### The code test - Sent by Melinda at Sandstone Technology
+### The code test - Sent by Sandstone Technology
 
 ### Time Frame of the Project: 2 hours
 
