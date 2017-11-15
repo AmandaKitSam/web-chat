@@ -20,3 +20,5 @@
 The conversation ballon is updated with his message.
 
 - 4) After 3 seconds, Mary replies with the below message.
+
+- Please visit live demo: https://amandakitsam.github.io/web-chat/
